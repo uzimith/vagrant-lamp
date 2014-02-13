@@ -33,7 +33,6 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
         bind_address: "127.0.0.1"
       },
       vhost: {
-        admin_email: "uzimith.x9@gmail.com",
         fqdn: "vagrant",
         root_dir: "/vagrant/html/",
         db: "app",
